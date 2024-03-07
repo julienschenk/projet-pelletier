@@ -1,5 +1,11 @@
 # projet-pelletier
 
+NB/ IMPORTANT: Avant de commencer, veuillez télécharger le jeu de données train.csv sur ce repositoire GitHub.
+               Le chemin d'accès aux données (la première ligne de code après les packages, df = pd.read_csv("C:\\Users\\Ju\\Downloads\\titanic\\train.csv"))
+               est celui de mon propre ordinateur. Ainsi, il vous faudra indiquer votre propre chemin d'accès aux données.
+
+
+
 1. Preprocessing
 
 Nous cherchons à analyser les facteurs qui ont influencé les probabilités de survie des différents passagers, lors du naufrage du titanic. Pour ce faire, nous avons un jeu de données comportant diverses variables sur les caractéristiques des passagers (age, prix du ticket, cabine, sexe etc.) ainsi qu’une variable indiquant la survie ou non du passager.
