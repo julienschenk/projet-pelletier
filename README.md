@@ -34,5 +34,6 @@ Une fois que nous avons établi la forme de la relation entre les variables et l
 
 La dernière étape du projet consiste en l'élaboration de modéles prédictifs de la variable 'Survived'.
 Nous retenons deux types de modélisation: La régression logistique et l'analyse par arbres décisionnels.
-Pour la régression logistique nous utilisons plusieurs critères pour décider des variables à inclure dans le modèle. On peut choisir les variables de façon arbitraire, on peut chosir les variables le plus fortement correllées avec la variable explicative, ou bien retenir les variables qui sont liées à 'Survived' significativement (ici, il faut mener des t-test au préalable.
-Nous comparons ensuite le pouvoir prédictif des différents modèles.
+Pour la régression logistique nous utilisons plusieurs critères pour décider des variables à inclure dans le modèle. On peut choisir les variables de façon arbitraire, on peut chosir les variables le plus fortement correllées avec la variable explicative, ou bien retenir les variables qui sont liées à 'Survived' significativement à un certain seuil(ici, il faut mener des t-test au préalable).
+Pour les deux types de modélisation nous utilisons des packages de la librairie scikit.learn.
+Après avoir produit les différentes modélisations, nous pouvons comparer leurs différents pouvoirs prédictifs.
